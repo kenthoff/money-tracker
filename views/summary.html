@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 1em;
+            margin: 30px;
+        }
+
+        .wrapper>div {
+            background-color: #eee;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div>
+            <h2>
+                Monthly Budget
+            </h2>
+        </div>
+        <div>
+            Starting Balance
+            <input type="text">
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet.
+        </div>
+
+</body>
+
+</html>
